@@ -10,7 +10,7 @@ import SwiftUI
 struct ReneView: View {
     var body: some View {
         VStack{
-        Text("Soy rene")
+            Text("Soy rene")
         }
     }
 }
