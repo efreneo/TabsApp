@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9730443B2D2F667700C06A25 /* ReneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730443A2D2F667700C06A25 /* ReneView.swift */; };
+		9730443E2D2F668100C06A25 /* FernandoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730443D2D2F668100C06A25 /* FernandoView.swift */; };
+		973044412D2F668900C06A25 /* EfrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044402D2F668900C06A25 /* EfrenView.swift */; };
 		978490C22D2F5E9B0086D559 /* TabsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978490C12D2F5E9B0086D559 /* TabsAppApp.swift */; };
 		978490C42D2F5E9B0086D559 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978490C32D2F5E9B0086D559 /* ContentView.swift */; };
 		978490C62D2F5E9F0086D559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978490C52D2F5E9F0086D559 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9730443A2D2F667700C06A25 /* ReneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReneView.swift; sourceTree = "<group>"; };
+		9730443D2D2F668100C06A25 /* FernandoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FernandoView.swift; sourceTree = "<group>"; };
+		973044402D2F668900C06A25 /* EfrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfrenView.swift; sourceTree = "<group>"; };
 		978490BE2D2F5E9B0086D559 /* TabsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978490C12D2F5E9B0086D559 /* TabsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsAppApp.swift; sourceTree = "<group>"; };
 		978490C32D2F5E9B0086D559 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				978490C12D2F5E9B0086D559 /* TabsAppApp.swift */,
 				978490C32D2F5E9B0086D559 /* ContentView.swift */,
+				9730443A2D2F667700C06A25 /* ReneView.swift */,
+				9730443D2D2F668100C06A25 /* FernandoView.swift */,
+				973044402D2F668900C06A25 /* EfrenView.swift */,
 				978490C52D2F5E9F0086D559 /* Assets.xcassets */,
 				978490CA2D2F5E9F0086D559 /* Info.plist */,
 				978490C72D2F5E9F0086D559 /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973044412D2F668900C06A25 /* EfrenView.swift in Sources */,
 				978490C42D2F5E9B0086D559 /* ContentView.swift in Sources */,
+				9730443E2D2F668100C06A25 /* FernandoView.swift in Sources */,
+				9730443B2D2F667700C06A25 /* ReneView.swift in Sources */,
 				978490C22D2F5E9B0086D559 /* TabsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
