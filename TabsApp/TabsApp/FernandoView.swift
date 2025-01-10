@@ -11,6 +11,7 @@ struct FernandoView: View {
     var body: some View {
         VStack{
            Text("¿Que paso?")
+                .foregroundColor(.blue)
         }
     }
 }
