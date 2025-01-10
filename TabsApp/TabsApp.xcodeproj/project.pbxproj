@@ -14,6 +14,7 @@
 		978490C42D2F5E9B0086D559 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978490C32D2F5E9B0086D559 /* ContentView.swift */; };
 		978490C62D2F5E9F0086D559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978490C52D2F5E9F0086D559 /* Assets.xcassets */; };
 		978490C92D2F5E9F0086D559 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978490C82D2F5E9F0086D559 /* Preview Assets.xcassets */; };
+		A763B3A62D30B44B00FB3FF4 /* HolaMundoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763B3A52D30B44B00FB3FF4 /* HolaMundoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		978490C52D2F5E9F0086D559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		978490C82D2F5E9F0086D559 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		978490CA2D2F5E9F0086D559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A763B3A52D30B44B00FB3FF4 /* HolaMundoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaMundoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		978490C02D2F5E9B0086D559 /* TabsApp */ = {
 			isa = PBXGroup;
 			children = (
+				A763B3A42D30B43200FB3FF4 /* ModuloNice */,
 				978490C12D2F5E9B0086D559 /* TabsAppApp.swift */,
 				978490C32D2F5E9B0086D559 /* ContentView.swift */,
 				9730443A2D2F667700C06A25 /* ReneView.swift */,
@@ -76,6 +79,14 @@
 				978490C82D2F5E9F0086D559 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A763B3A42D30B43200FB3FF4 /* ModuloNice */ = {
+			isa = PBXGroup;
+			children = (
+				A763B3A52D30B44B00FB3FF4 /* HolaMundoView.swift */,
+			);
+			path = ModuloNice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A763B3A62D30B44B00FB3FF4 /* HolaMundoView.swift in Sources */,
 				973044412D2F668900C06A25 /* EfrenView.swift in Sources */,
 				978490C42D2F5E9B0086D559 /* ContentView.swift in Sources */,
 				9730443E2D2F668100C06A25 /* FernandoView.swift in Sources */,
